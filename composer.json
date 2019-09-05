@@ -21,7 +21,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "BigBIT\\Oddin\\Support\\Common": "support/"
+            "BigBIT\\Oddin\\Support\\Common\\": "support/"
         }
     }
 }
