@@ -1,0 +1,27 @@
+{
+    "name": "bigbit/di-bootstrap-oddin",
+    "description": "DI Bootstrap support for Oddin",
+    "type": "library",
+    "require": {
+        "bigbit/di-bootstrap": "~1.0",
+        "bigbit/oddin": "~1.0",
+
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "symfony/cache": "^4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej Heczko",
+            "email": "andrzej.heczko@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BigBIT\\Oddin\\Support\\Common": "support/"
+        }
+    }
+}
